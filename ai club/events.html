@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Courses</title>
+
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="about.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="pure.js"></script>
+</head>
+<body>
+	<!-- Navigation start -->
+	<div id="header"></div>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="about-home">
+		<h2>
+			Events
+		</h2>
+	</section>
+	<!-- Hero section ends from here -->
+
+		<!-- Courses section starts from here -->
+	<section id="course">
+		<h1>Our Upcoming Events</h1>
+		<p>Replenish man have thing gathering lights yielding shall you</p>
+
+		<div class="course-box">
+			<div class="courses">
+				<img src="img/hack.webp" alt="">
+				<div class="details">
+					<span>Updated 2/9/23</span>
+					<h6>Hackathons</h6>
+				</div>
+			</div>
+
+			<div class="courses">
+				<img src="img/interactive.jpg" alt="">
+				<div class="details">
+					<span>Updated 2/9/23</span>
+					<h6>Interactive Learning Sessions</h6>
+				</div>
+			</div>
+
+			<div class="courses">
+				<img src="img/c3.jpg" alt="">
+				<div class="details">
+					<span>Updated 2/9/23</span>
+					<h6>Live Python Sessions</h6>
+				</div>
+			</div>
+
+			<div class="courses">
+				<img src="img/ml.jpg" alt="">
+				<div class="details">
+					<span>Updated 2/9/23</span>
+					<h6>Live ML Sessions</h6>
+				</div>
+			</div>
+
+			<div class="courses">
+				<img src="img/team.jpg" alt="">
+				<div class="details">
+					<span>Updated 2/9/23</span>
+					<h6>Competitive Team</h6>
+				</div>
+			</div>
+
+			<div class="courses">
+				<img src="img/ind.jpeg" alt="">
+				<div class="details">
+					<span>Updated 2/9/23</span>
+					<h6>Industrial Talks</h6>
+				</div>
+			</div>
+
+			<div class="courses">
+				<img src="img/projects.png" alt="">
+				<div class="details">
+					<span>Updated 2/9/23</span>
+					<h6>Real Time Projects</h6>
+				</div>
+			</div>
+
+			<div class="courses">
+				<img src="img/workshop.jpg" alt="">
+				<div class="details">
+					<span>Updated 2/9/23</span>
+					<h6>Workshops</h6>
+				</div>
+			</div>
+
+			<div class="courses">
+				<img src="img/blog.png" alt="">
+				<div class="details">
+					<span>Updated 2/9/23</span>
+					<h6>Blogs</h6>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Courses section ends from here -->
+
+	<!-- Footer section starts from here -->
+	<div id="footer"></div>
+	<!-- Footer section ends from here -->
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
